@@ -41,6 +41,7 @@ function init() {
             lat: lat,
             lon: lon,
             hoverinfo: "text",
+            text: hoverText,
             marker: {
               size: covidSize,
               line: {
